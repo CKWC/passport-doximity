@@ -1,0 +1,40 @@
+{
+  "name": "passport-doximity",
+  "version": "1.0.0",
+  "description": "Doximity authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "doximity",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Patrick Childers",
+    "email": "patrick.childers@gmail.com",
+    "url": "http://connectingkidswithcare.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CKWC/passport-doximity.git"
+  },
+  "bugs": {
+    "url": "http://github.com/CKWC/passport-doximity/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
